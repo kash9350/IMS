@@ -1,0 +1,1011 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EBA13E5C-9D97-4465-9CCE-E2087D8B2405}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Meet_Garments_Fisics.My.MyApplication</StartupObject>
+    <RootNamespace>Meet_Garments_Fisics</RootNamespace>
+    <AssemblyName>Meet Garments Fisics</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Meet Garments Fisics.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Meet Garments Fisics.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>Meet Garments Fisics.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>Meet Garments Fisics.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Changepassword.Designer.vb">
+      <DependentUpon>Changepassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Changepassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChngeOrderStat.Designer.vb">
+      <DependentUpon>ChngeOrderStat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChngeOrderStat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerDetails.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomerReport.Designer.vb">
+      <DependentUpon>CustomerReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_DetailsDS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_DetailsDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InBetweenDates.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InBetweenDates.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule.vb" />
+    <Compile Include="Meetgarments.designer.vb">
+      <DependentUpon>Meetgarments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Meetgarments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newcustomerdetails.Designer.vb">
+      <DependentUpon>newcustomerdetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="newcustomerdetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FisicsHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FisicsHome.Designer.vb">
+      <DependentUpon>FisicsHome.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="newsupplierdetails.Designer.vb">
+      <DependentUpon>newsupplierdetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="newsupplierdetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderDetailAsOnDate.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrderDetailAsOnDate.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OrderDetails.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrderDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OrderDetailsDs.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrderDetailsDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetailsView.Designer.vb">
+      <DependentUpon>OrderDetailsView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetailsView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderInBetweenDates.Designer.vb">
+      <DependentUpon>OrderInBetweenDates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OrderInBetweenDates.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderReport.Designer.vb">
+      <DependentUpon>OrderReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OrderReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderReportDS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrderReportDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PurcFromSupplierR.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurcFromSupplierR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Purchase.Designer.vb">
+      <DependentUpon>Purchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchaseReturn.Designer.vb">
+      <DependentUpon>purchaseReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="purchaseReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseReturnView.Designer.vb">
+      <DependentUpon>PurchaseReturnView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseReturnView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase_item.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Purchase_item.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_item.vb">
+      <DependentUpon>Purchase_item.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_item_add.Designer.vb">
+      <DependentUpon>Purchase_item_add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_item_add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase_item_view.Designer.vb">
+      <DependentUpon>Purchase_item_view.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_item_view.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurFromSupplierDs.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurFromSupplierDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PurFromSupplierView.Designer.vb">
+      <DependentUpon>PurFromSupplierView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PurFromSupplierView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleByGroupDs.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SaleByGroupDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Sales.designer.vb">
+      <DependentUpon>Sales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesByGroup.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesByGroup.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="salesitem.designer.vb">
+      <DependentUpon>salesitem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="salesitem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesItemWise.Designer.vb">
+      <DependentUpon>SalesItemWise.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesItemWise.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReturnView.Designer.vb">
+      <DependentUpon>SalesReturnView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReturnView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesStockDetails.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesStockDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SaleStockDetailsDS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SaleStockDetailsDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SaleStockReport.Designer.vb">
+      <DependentUpon>SaleStockReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SaleStockReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalestoCustomerR.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalestoCustomerR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SalesToCustomerViewr.Designer.vb">
+      <DependentUpon>SalesToCustomerViewr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesToCustomerViewr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales_order.Designer.vb">
+      <DependentUpon>Sales_order.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_order.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales_return.Designer.vb">
+      <DependentUpon>Sales_return.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_return.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleToCustomerDs.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SaleToCustomerDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SDPdatabaseDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDPdatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SDPdatabaseDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDPdatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SDPdatabaseDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDPdatabaseDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SDPdatabaseDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDPdatabaseDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SDPdatabaseDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDPdatabaseDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SDPdatabaseDataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDPdatabaseDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SDPdatabaseDataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDPdatabaseDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SDPdatabaseDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDPdatabaseDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SDPdatabaseDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDPdatabaseDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SDPdatabaseDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDPdatabaseDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SDPdatabaseDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDPdatabaseDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SDPdatabaseDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDPdatabaseDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SDPdatabaseDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDPdatabaseDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SDPdatabaseDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDPdatabaseDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SDPdatabaseDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDPdatabaseDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierDetails.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SupplierDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SupplierDetailsDs.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SupplierDetailsDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierReport.Designer.vb">
+      <DependentUpon>SupplierReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supplier_city.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supplier_city.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Supplier_name_purchase_entry.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supplier_name_purchase_entry.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateCustomer.Designer.vb">
+      <DependentUpon>UpdateCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateSupplier.Designer.vb">
+      <DependentUpon>updateSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="updateSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View Purchase.Designer.vb">
+      <DependentUpon>View Purchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View Purchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewCustomer.Designer.vb">
+      <DependentUpon>ViewCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewSupplier.Designer.vb">
+      <DependentUpon>ViewSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Item.Designer.vb">
+      <DependentUpon>View_Item.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View_Item.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Order.Designer.vb">
+      <DependentUpon>View_Order.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View_Order.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_sales.Designer.vb">
+      <DependentUpon>View_sales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View_sales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Changepassword.resx">
+      <DependentUpon>Changepassword.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChngeOrderStat.resx">
+      <DependentUpon>ChngeOrderStat.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CustomerDetails.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerReport.resx">
+      <DependentUpon>CustomerReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InBetweenDates.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InBetweenDates.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meetgarments.resx">
+      <DependentUpon>Meetgarments.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newcustomerdetails.resx">
+      <DependentUpon>newcustomerdetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FisicsHome.resx">
+      <DependentUpon>FisicsHome.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newsupplierdetails.resx">
+      <DependentUpon>newsupplierdetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderDetailAsOnDate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>OrderDetailAsOnDate.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>OrderDetails.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderDetailsView.resx">
+      <DependentUpon>OrderDetailsView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderInBetweenDates.resx">
+      <DependentUpon>OrderInBetweenDates.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderReport.resx">
+      <DependentUpon>OrderReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurcFromSupplierR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PurcFromSupplierR.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase.resx">
+      <DependentUpon>Purchase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseReturn.resx">
+      <DependentUpon>purchaseReturn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseReturnView.resx">
+      <DependentUpon>PurchaseReturnView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase_item_add.resx">
+      <DependentUpon>Purchase_item_add.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase_item_view.resx">
+      <DependentUpon>Purchase_item_view.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurFromSupplierView.resx">
+      <DependentUpon>PurFromSupplierView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales.resx">
+      <DependentUpon>Sales.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesByGroup.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalesByGroup.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salesitem.resx">
+      <DependentUpon>salesitem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesItemWise.resx">
+      <DependentUpon>SalesItemWise.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReturnView.resx">
+      <DependentUpon>SalesReturnView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesStockDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalesStockDetails.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleStockReport.resx">
+      <DependentUpon>SaleStockReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalestoCustomerR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalestoCustomerR.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesToCustomerViewr.resx">
+      <DependentUpon>SalesToCustomerViewr.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales_order.resx">
+      <DependentUpon>Sales_order.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales_return.resx">
+      <DependentUpon>Sales_return.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SupplierDetails.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierReport.resx">
+      <DependentUpon>SupplierReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateCustomer.resx">
+      <DependentUpon>UpdateCustomer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateSupplier.resx">
+      <DependentUpon>updateSupplier.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Purchase.resx">
+      <DependentUpon>View Purchase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCustomer.resx">
+      <DependentUpon>ViewCustomer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewSupplier.resx">
+      <DependentUpon>ViewSupplier.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Item.resx">
+      <DependentUpon>View_Item.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Order.resx">
+      <DependentUpon>View_Order.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_sales.resx">
+      <DependentUpon>View_sales.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mailarray_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Customer_DetailsDS.xsc">
+      <DependentUpon>Customer_DetailsDS.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_DetailsDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_DetailsDS.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Customer_DetailsDS.xss">
+      <DependentUpon>Customer_DetailsDS.xsd</DependentUpon>
+    </None>
+    <None Include="OrderDetailsDs.xsc">
+      <DependentUpon>OrderDetailsDs.xsd</DependentUpon>
+    </None>
+    <None Include="OrderDetailsDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrderDetailsDs.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="OrderDetailsDs.xss">
+      <DependentUpon>OrderDetailsDs.xsd</DependentUpon>
+    </None>
+    <None Include="OrderReportDS.xsc">
+      <DependentUpon>OrderReportDS.xsd</DependentUpon>
+    </None>
+    <None Include="OrderReportDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrderReportDS.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="OrderReportDS.xss">
+      <DependentUpon>OrderReportDS.xsd</DependentUpon>
+    </None>
+    <None Include="Purchase_item.xsc">
+      <DependentUpon>Purchase_item.xsd</DependentUpon>
+    </None>
+    <None Include="Purchase_item.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Purchase_item.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Purchase_item.xss">
+      <DependentUpon>Purchase_item.xsd</DependentUpon>
+    </None>
+    <None Include="PurFromSupplierDs.xsc">
+      <DependentUpon>PurFromSupplierDs.xsd</DependentUpon>
+    </None>
+    <None Include="PurFromSupplierDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurFromSupplierDs.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="PurFromSupplierDs.xss">
+      <DependentUpon>PurFromSupplierDs.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\IMG-20140221-WA0005.jpg" />
+    <None Include="SaleByGroupDs.xsc">
+      <DependentUpon>SaleByGroupDs.xsd</DependentUpon>
+    </None>
+    <None Include="SaleByGroupDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SaleByGroupDs.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SaleByGroupDs.xss">
+      <DependentUpon>SaleByGroupDs.xsd</DependentUpon>
+    </None>
+    <None Include="SaleStockDetailsDS.xsc">
+      <DependentUpon>SaleStockDetailsDS.xsd</DependentUpon>
+    </None>
+    <None Include="SaleStockDetailsDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SaleStockDetailsDS.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SaleStockDetailsDS.xss">
+      <DependentUpon>SaleStockDetailsDS.xsd</DependentUpon>
+    </None>
+    <None Include="SaleToCustomerDs.xsc">
+      <DependentUpon>SaleToCustomerDs.xsd</DependentUpon>
+    </None>
+    <None Include="SaleToCustomerDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SaleToCustomerDs.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SaleToCustomerDs.xss">
+      <DependentUpon>SaleToCustomerDs.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet.xsc">
+      <DependentUpon>SDPdatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDPdatabaseDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SDPdatabaseDataSet.xss">
+      <DependentUpon>SDPdatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet1.xsc">
+      <DependentUpon>SDPdatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDPdatabaseDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SDPdatabaseDataSet1.xss">
+      <DependentUpon>SDPdatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet10.xsc">
+      <DependentUpon>SDPdatabaseDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDPdatabaseDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SDPdatabaseDataSet10.xss">
+      <DependentUpon>SDPdatabaseDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet11.xsc">
+      <DependentUpon>SDPdatabaseDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDPdatabaseDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SDPdatabaseDataSet11.xss">
+      <DependentUpon>SDPdatabaseDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet12.xsc">
+      <DependentUpon>SDPdatabaseDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDPdatabaseDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SDPdatabaseDataSet12.xss">
+      <DependentUpon>SDPdatabaseDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet13.xsc">
+      <DependentUpon>SDPdatabaseDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDPdatabaseDataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SDPdatabaseDataSet13.xss">
+      <DependentUpon>SDPdatabaseDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet14.xsc">
+      <DependentUpon>SDPdatabaseDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDPdatabaseDataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SDPdatabaseDataSet14.xss">
+      <DependentUpon>SDPdatabaseDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet2.xsc">
+      <DependentUpon>SDPdatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDPdatabaseDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SDPdatabaseDataSet2.xss">
+      <DependentUpon>SDPdatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet3.xsc">
+      <DependentUpon>SDPdatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDPdatabaseDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SDPdatabaseDataSet3.xss">
+      <DependentUpon>SDPdatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet4.xsc">
+      <DependentUpon>SDPdatabaseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDPdatabaseDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SDPdatabaseDataSet4.xss">
+      <DependentUpon>SDPdatabaseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet5.xsc">
+      <DependentUpon>SDPdatabaseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDPdatabaseDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SDPdatabaseDataSet5.xss">
+      <DependentUpon>SDPdatabaseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet6.xsc">
+      <DependentUpon>SDPdatabaseDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDPdatabaseDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SDPdatabaseDataSet6.xss">
+      <DependentUpon>SDPdatabaseDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet7.xsc">
+      <DependentUpon>SDPdatabaseDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDPdatabaseDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SDPdatabaseDataSet7.xss">
+      <DependentUpon>SDPdatabaseDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet8.xsc">
+      <DependentUpon>SDPdatabaseDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDPdatabaseDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SDPdatabaseDataSet8.xss">
+      <DependentUpon>SDPdatabaseDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet9.xsc">
+      <DependentUpon>SDPdatabaseDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="SDPdatabaseDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDPdatabaseDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SDPdatabaseDataSet9.xss">
+      <DependentUpon>SDPdatabaseDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="SupplierDetailsDs.xsc">
+      <DependentUpon>SupplierDetailsDs.xsd</DependentUpon>
+    </None>
+    <None Include="SupplierDetailsDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SupplierDetailsDs.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SupplierDetailsDs.xss">
+      <DependentUpon>SupplierDetailsDs.xsd</DependentUpon>
+    </None>
+    <None Include="Supplier_city.xsc">
+      <DependentUpon>Supplier_city.xsd</DependentUpon>
+    </None>
+    <None Include="Supplier_city.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Supplier_city.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Supplier_city.xss">
+      <DependentUpon>Supplier_city.xsd</DependentUpon>
+    </None>
+    <None Include="Supplier_name_purchase_entry.xsc">
+      <DependentUpon>Supplier_name_purchase_entry.xsd</DependentUpon>
+    </None>
+    <None Include="Supplier_name_purchase_entry.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Supplier_name_purchase_entry.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Supplier_name_purchase_entry.xss">
+      <DependentUpon>Supplier_name_purchase_entry.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SDPdatabase.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

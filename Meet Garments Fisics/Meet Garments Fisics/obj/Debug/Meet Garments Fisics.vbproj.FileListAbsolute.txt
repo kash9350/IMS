@@ -1,0 +1,26 @@
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\bin\Debug\Meet Garments Fisics.exe
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\bin\Debug\Meet Garments Fisics.pdb
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\bin\Debug\Meet Garments Fisics.xml
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.FisicsHome.resources
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.Resources.resources
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet Garments Fisics.vbproj.GenerateResource.Cache
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet Garments Fisics.exe
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet Garments Fisics.xml
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet Garments Fisics.pdb
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.Login.resources
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.newcustomerdetails.resources
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.newsupplierdetails.resources
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.ViewCustomer.resources
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.ViewSupplier.resources
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\bin\Debug\Meet Garments Fisics.exe.config
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.Purchase.resources
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.updateCustomer.resources
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.updateSupplier.resources
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\bin\Debug\SDPdatabase.mdb
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.CustomerReport.resources
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.Meetgarments.resources
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.Sales.resources
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.salesitem.resources
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.SupplierReport.resources
+C:\Users\Kashyap Ashara\Desktop\Sdp\Meet Garments Fisics\Meet Garments Fisics\obj\Debug\Meet_Garments_Fisics.ViewItems.resources

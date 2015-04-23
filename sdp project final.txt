@@ -1,0 +1,53 @@
+Firm name: Fisics
+Case Details: procedure of Data entry and data usage and data flow
+
+
+
+vb.net
+sql
+
+
+
+
+
+30 pages of a4 size papper
+each page contain header and footer
+1 and 2 page tittle and intro and details of firm
+last page contain thanking note(include guider name,owner name,firm name)and also contain summery of the project
+pages form 3 to 29 contain erdiagerm,class diagram,and other neccery diagram
+it also contain details and formula used in the project 
+
+
+
+
+folders-
+1st folder for snap shotes of projece of differnt page 
+2nd folder include erdiageam and tables and sql codes
+3rd folder all notepad files 
+
+
+
+process-
+cloth rolls,button,threds,elastic,zip come from markets
+payment to market
+cloth wash
+cloth cut in various sizes(s,m,xl,xxl)
+cutted cloth are stich from all side
+than button zip and barcode is attached with it
+all cloth go for wasing
+final touchup done
+cloth go for ironing
+than tag and price tage are attached
+than all cloth are packed and go to various distributers
+payments come from distributers
+
+
+payments-
+market
+washer
+iron
+printing
+packing
+distributers
+
+

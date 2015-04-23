@@ -1,0 +1,1584 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MeetGarmentsFisics
+</name>
+</assembly>
+<members>
+<member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet2.Sales_item_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet2.Sales_item_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet2.Sales_item_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet2TableAdapters.Sales_item_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SDPdatabaseDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SDPdatabaseDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SDPdatabaseDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet2TableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SDPdatabaseDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet5.Sales_item_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet5.Sales_item_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet5.Sales_item_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet5TableAdapters.Sales_item_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SDPdatabaseDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SDPdatabaseDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SDPdatabaseDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet5TableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SDPdatabaseDataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet8.Purchase_item_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet8.Purchase_item_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet8.Purchase_item_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet8">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet8TableAdapters.Purchase_item_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SDPdatabaseDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SDPdatabaseDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SDPdatabaseDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet8TableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SDPdatabaseDataSet8)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet8TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_city.CityDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_city.CityRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_city.CityRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_city">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_cityTableAdapters.CityTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Supplier_cityTableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.Supplier_city,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Supplier_cityTableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.Supplier_city,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Supplier_cityTableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.Supplier_city,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Supplier_cityTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Supplier_cityTableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.Supplier_city)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_cityTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_cityTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_cityTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleStockDetailsDS.Sales_item_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleStockDetailsDS.Sales_item_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleStockDetailsDS.Sales_item_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleStockDetailsDS">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleStockDetailsDSTableAdapters.Sales_item_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SaleStockDetailsDSTableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SaleStockDetailsDS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SaleStockDetailsDSTableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SaleStockDetailsDS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SaleStockDetailsDSTableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SaleStockDetailsDS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SaleStockDetailsDSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SaleStockDetailsDSTableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SaleStockDetailsDS)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleStockDetailsDSTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleStockDetailsDSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleStockDetailsDSTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDs.SalesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDs.Sales_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDs.Sales_item_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDs.Customer_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDs.SalesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDs.Sales_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDs.Sales_item_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDs.Customer_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDs.SalesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDs.Sales_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDs.Sales_item_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDs.Customer_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDs">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDsTableAdapters.SalesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDsTableAdapters.Sales_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDsTableAdapters.Sales_item_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDsTableAdapters.Customer_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SaleByGroupDsTableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SaleByGroupDs,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SaleByGroupDsTableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SaleByGroupDs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SaleByGroupDsTableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SaleByGroupDs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SaleByGroupDsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SaleByGroupDsTableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SaleByGroupDs)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleByGroupDsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet.Purchase_item_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet.Purchase_item_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet.Purchase_item_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSetTableAdapters.Purchase_item_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SDPdatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SDPdatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SDPdatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSetTableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SDPdatabaseDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SupplierDetailsDs.Supplier_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SupplierDetailsDs.CityDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SupplierDetailsDs.Supplier_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SupplierDetailsDs.CityRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SupplierDetailsDs.Supplier_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SupplierDetailsDs.CityRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SupplierDetailsDs">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SupplierDetailsDsTableAdapters.Supplier_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SupplierDetailsDsTableAdapters.CityTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SupplierDetailsDsTableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SupplierDetailsDs,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SupplierDetailsDsTableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SupplierDetailsDs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SupplierDetailsDsTableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SupplierDetailsDs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SupplierDetailsDsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SupplierDetailsDsTableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SupplierDetailsDs)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SupplierDetailsDsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SupplierDetailsDsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SupplierDetailsDsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet10.Sales_item_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet10.Sales_item_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet10.Sales_item_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet10">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet10TableAdapters.Sales_item_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SDPdatabaseDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SDPdatabaseDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SDPdatabaseDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet10TableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SDPdatabaseDataSet10)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet10TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet13.Order_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet13.Sales_item_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet13.Order_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet13.Sales_item_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet13.Order_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet13.Sales_item_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet13">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet13TableAdapters.Order_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet13TableAdapters.Sales_item_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet13TableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SDPdatabaseDataSet13,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet13TableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SDPdatabaseDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet13TableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SDPdatabaseDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet13TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet13TableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SDPdatabaseDataSet13)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet13TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet13TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet13TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderReportDS.Order_masterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderReportDS.Customer_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderReportDS.Order_masterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderReportDS.Customer_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderReportDS.Order_masterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderReportDS.Customer_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderReportDS">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderReportDSTableAdapters.Order_masterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderReportDSTableAdapters.Customer_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.OrderReportDSTableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.OrderReportDS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.OrderReportDSTableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.OrderReportDS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.OrderReportDSTableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.OrderReportDS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.OrderReportDSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.OrderReportDSTableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.OrderReportDS)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderReportDSTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderReportDSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderReportDSTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleToCustomerDs.Customer_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleToCustomerDs.SalesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleToCustomerDs.Customer_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleToCustomerDs.SalesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleToCustomerDs.Customer_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleToCustomerDs.SalesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleToCustomerDs">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleToCustomerDsTableAdapters.Customer_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleToCustomerDsTableAdapters.SalesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SaleToCustomerDsTableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SaleToCustomerDs,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SaleToCustomerDsTableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SaleToCustomerDs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SaleToCustomerDsTableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SaleToCustomerDs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SaleToCustomerDsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SaleToCustomerDsTableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SaleToCustomerDs)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleToCustomerDsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleToCustomerDsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SaleToCustomerDsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet1.Customer_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet1.Customer_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet1.Customer_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet1TableAdapters.Customer_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SDPdatabaseDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SDPdatabaseDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SDPdatabaseDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet1TableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SDPdatabaseDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet4.Customer_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet4.Customer_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet4.Customer_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet4TableAdapters.Customer_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SDPdatabaseDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SDPdatabaseDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SDPdatabaseDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet4TableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SDPdatabaseDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet7.PurchaseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet7.PurchaseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet7.PurchaseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet7">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet7TableAdapters.PurchaseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SDPdatabaseDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SDPdatabaseDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SDPdatabaseDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet7TableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SDPdatabaseDataSet7)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet7TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Customer_DetailsDS.Customer_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Customer_DetailsDS.CityDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Customer_DetailsDS.Customer_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Customer_DetailsDS.CityRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Customer_DetailsDS.Customer_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Customer_DetailsDS.CityRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Customer_DetailsDS">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Customer_DetailsDSTableAdapters.Customer_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Customer_DetailsDSTableAdapters.CityTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Customer_DetailsDSTableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.Customer_DetailsDS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Customer_DetailsDSTableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.Customer_DetailsDS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Customer_DetailsDSTableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.Customer_DetailsDS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Customer_DetailsDSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Customer_DetailsDSTableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.Customer_DetailsDS)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Customer_DetailsDSTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Customer_DetailsDSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Customer_DetailsDSTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Purchase_item.Purchase_item_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Purchase_item.Purchase_item_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Purchase_item.Purchase_item_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Purchase_item">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Purchase_itemTableAdapters.Purchase_item_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Purchase_itemTableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.Purchase_item,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Purchase_itemTableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.Purchase_item,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Purchase_itemTableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.Purchase_item,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Purchase_itemTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Purchase_itemTableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.Purchase_item)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Purchase_itemTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Purchase_itemTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Purchase_itemTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.PurFromSupplierDs.PurchaseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.PurFromSupplierDs.Supplier_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.PurFromSupplierDs.PurchaseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.PurFromSupplierDs.Supplier_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.PurFromSupplierDs.PurchaseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.PurFromSupplierDs.Supplier_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.PurFromSupplierDs">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.PurFromSupplierDsTableAdapters.PurchaseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.PurFromSupplierDsTableAdapters.Supplier_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.PurFromSupplierDsTableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.PurFromSupplierDs,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.PurFromSupplierDsTableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.PurFromSupplierDs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.PurFromSupplierDsTableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.PurFromSupplierDs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.PurFromSupplierDsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.PurFromSupplierDsTableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.PurFromSupplierDs)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.PurFromSupplierDsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.PurFromSupplierDsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.PurFromSupplierDsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet12.Order_masterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet12.Order_masterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet12.Order_masterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet12">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet12TableAdapters.Order_masterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SDPdatabaseDataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SDPdatabaseDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SDPdatabaseDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet12TableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SDPdatabaseDataSet12)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet12TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet6.CityDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet6.CityRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet6.CityRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet6TableAdapters.CityTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SDPdatabaseDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SDPdatabaseDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SDPdatabaseDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet6TableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SDPdatabaseDataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet9.Sales_item_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet9.Sales_item_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet9.Sales_item_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet9">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet9TableAdapters.Sales_item_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SDPdatabaseDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SDPdatabaseDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SDPdatabaseDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet9TableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SDPdatabaseDataSet9)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet9TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet3.Purchase_item_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet3.Purchase_item_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet3.Purchase_item_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet3TableAdapters.Purchase_item_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SDPdatabaseDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SDPdatabaseDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SDPdatabaseDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet3TableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SDPdatabaseDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDs.Sales_item_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDs.Order_masterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDs.Order_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDs.Customer_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDs.Sales_item_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDs.Order_masterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDs.Order_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDs.Customer_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDs.Sales_item_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDs.Order_masterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDs.Order_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDs.Customer_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDs">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDsTableAdapters.Sales_item_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDsTableAdapters.Order_masterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDsTableAdapters.Order_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDsTableAdapters.Customer_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.OrderDetailsDsTableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.OrderDetailsDs,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.OrderDetailsDsTableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.OrderDetailsDs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.OrderDetailsDsTableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.OrderDetailsDs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.OrderDetailsDsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.OrderDetailsDsTableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.OrderDetailsDs)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.OrderDetailsDsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Meet_Garments_Fisics.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Meet_Garments_Fisics.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet11.Customer_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet11.Customer_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet11.Customer_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet11">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet11TableAdapters.Customer_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SDPdatabaseDataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SDPdatabaseDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SDPdatabaseDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet11TableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SDPdatabaseDataSet11)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet11TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet14.Order_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet14.Sales_item_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet14.Order_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet14.Sales_item_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet14.Order_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet14.Sales_item_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet14">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet14TableAdapters.Order_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet14TableAdapters.Sales_item_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet14TableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.SDPdatabaseDataSet14,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet14TableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.SDPdatabaseDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet14TableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.SDPdatabaseDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet14TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.SDPdatabaseDataSet14TableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.SDPdatabaseDataSet14)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet14TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet14TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.SDPdatabaseDataSet14TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_name_purchase_entry.Supplier_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_name_purchase_entry.Supplier_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_name_purchase_entry.Supplier_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_name_purchase_entry">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_name_purchase_entryTableAdapters.Supplier_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Supplier_name_purchase_entryTableAdapters.TableAdapterManager.UpdateUpdatedRows(Meet_Garments_Fisics.Supplier_name_purchase_entry,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Supplier_name_purchase_entryTableAdapters.TableAdapterManager.UpdateInsertedRows(Meet_Garments_Fisics.Supplier_name_purchase_entry,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Supplier_name_purchase_entryTableAdapters.TableAdapterManager.UpdateDeletedRows(Meet_Garments_Fisics.Supplier_name_purchase_entry,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Supplier_name_purchase_entryTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Meet_Garments_Fisics.Supplier_name_purchase_entryTableAdapters.TableAdapterManager.UpdateAll(Meet_Garments_Fisics.Supplier_name_purchase_entry)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_name_purchase_entryTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_name_purchase_entryTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Meet_Garments_Fisics.Supplier_name_purchase_entryTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
